@@ -4,6 +4,8 @@ https://www.youtube.com/watch?v=xe6wU26bf6s&t=308s
 
 https://raw.githubusercontent.com/RodrigoMvs123/I-code-an-AI-API-to-Earn-PROFITS-1-Hour-build-OpenAI-Zuplo-Stripe/main/README.md
 
+https://github.com/RodrigoMvs123/I-code-an-AI-API-to-Earn-PROFITS-1-Hour-build-OpenAI-Zuplo-Stripe/blame/main/README.md
+
 Zuplo Portal
 
 https://portal.zuplo.com/fuchsia_upper_hare/ania-haiku-api/~working-copy/edit?path=getting-started 
