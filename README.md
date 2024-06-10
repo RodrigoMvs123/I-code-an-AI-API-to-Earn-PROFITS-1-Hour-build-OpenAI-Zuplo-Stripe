@@ -1,4 +1,4 @@
-# I-code-an-AI-API-to-Earn-PROFITS-1-Hour-build-OpenAI-Zuplo-Stripe
+## I-code-an-AI-API-to-Earn-PROFITS-1-Hour-build-OpenAI-Zuplo-Stripe
 
 https://www.youtube.com/watch?v=xe6wU26bf6s&t=308s 
 
@@ -6,19 +6,25 @@ https://raw.githubusercontent.com/RodrigoMvs123/I-code-an-AI-API-to-Earn-PROFITS
 
 https://github.com/RodrigoMvs123/I-code-an-AI-API-to-Earn-PROFITS-1-Hour-build-OpenAI-Zuplo-Stripe/blame/main/README.md
 
-Zuplo Portal
+## Zuplo Portal
 
-https://portal.zuplo.com/fuchsia_upper_hare/ania-haiku-api/~working-copy/edit?path=getting-started 
+- https://portal.zuplo.com/fuchsia_upper_hare/ania-haiku-api/~working-copy/edit?path=getting-started 
 
-New Project
+## New Project
 ania-haiku-api
 
+```bash
+  ania-haiku-api
+```
+    
 routes.oas.json
 
-Visual Studio Code
-Terminal
+### Visual Studio Code
+Terminal 
 npm init
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer 
 Open Editors
@@ -36,7 +42,9 @@ package.json
   "author": "",
   "license": "ISC"
 }
+```
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -64,11 +72,16 @@ package.json
   "author": "",
   "license": "ISC"
 }
-	
-Visual Studio Code
-Terminal
-npm i nodemon
+```
 
+### Visual Studio Code
+Terminal
+```bash
+npm i nodemon
+```
+
+## Source Code 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -81,15 +94,20 @@ const express = require('express')
 const app = express()
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm run start
 npm install express 
 npm run start
+```
 
 Listening on port 8000
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -104,10 +122,14 @@ const app = express()
 app.get('/',(req, res) => res.json('Welcome to my Haiku API'))
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+```
 
 http://localhost:8000
+
 “Welcome to my Haiku API”
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -124,10 +146,14 @@ app.get('/',(req, res) => res.json('Welcome to my Haiku API'))
 app.get('/haiku',(req, res) => res.json('This is my Haiku !'))
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+```
 
 localhost:8000/haiku
+
 “This is my Haiku !”
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -152,13 +178,22 @@ app.get('/haiku',(req, res) => {
 
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+```
 
+## OpenAI UI
+```javascript
 OpenAI API KEY
 API KEYS
 Create a new secret key
+```
+
+```bash
 demo-api
 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
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -168,7 +203,9 @@ index.js
 
 .env
 OPENAI_API_KEY=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
+```
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -193,11 +230,16 @@ app.get('/haiku',(req, res) => {
 
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm install openai
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -230,11 +272,16 @@ app.get('/haiku', async(req, res) => {
 
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm install dotenv
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -272,38 +319,49 @@ app.get('/haiku', async(req, res) => {
 
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+```
 
 localhost:8000/haiku
-
+```bash
 {
 	message: “You are not authorized to make this request.”
 }
+```
+## Heroku UI
+- https://www.heroku.com/ 
 
-https://www.heroku.com/ 
-
+```javascript
 Create new App
 App name 
 haiku-app
 Choose Region
 Europe
+```
 
+```javascript
 Install the Heruku CLI
+```
 https://devcenter.heroku.com/articles/heroku-cli 
 
+## GitHub UI
 Create a new Git repository
+```javascript
 git init
 heroku git:remote -a haiku-app
 git add . 
 git commit -am “added files” 
 git push push heroku main
+```
 
 URL
+
 haiku-app-92b6f0dbadc4.herokuapp.com
 
 “Welcome to my Haiku App !”
 
-Zuplo Portal 
+## Zuplo Portal
 
+```javascript
 Add Route
 Request Handling 
 Sumary 
@@ -323,8 +381,12 @@ Sumary
 Get Your AI Generative Haiku
 Path 
 /v1/haiku
+```
 Handler 
-URL Rewrite https://haiku-app-92b6…/haiku 
+URL Rewrite 
+
+https://haiku-app-92b6…/haiku 
+```bash
 {
 	“You are not authorized to make this request.”
 }
@@ -334,7 +396,9 @@ Test
 {
 	“You are not authorized to make this request.”
 }
+```
 
+```javascript
 Test Your API
 
 Method Get
@@ -352,13 +416,17 @@ Add Policy
 Add or Set Request Headers
 
 Configuration
+```
+```bash
 { 	
 	“name”: “secretkey”,
 	“value”: “super-secret-key”
 
 }
 Save
+```
 
+```javascript
 Test Your API
 
 Method Get
@@ -403,10 +471,12 @@ Checked
 Monetization Settings 
 Checked 
 Save
+```
 
-Stripe
-https://dashboard.stripe.com/register 
+## Stripe UI
+- https://dashboard.stripe.com/register 
 
+```javascript
 Test Mode
 On
 
@@ -474,10 +544,15 @@ Value
 …
 Secret
 Checked 
+```
 
+## Zuplo Portal
+```javascript
 Zuplo Docs 
 Monetization
+```
 https://zuplo.com/docs/articles/monetization-webhook-setup 
+```javascript
 import {
   RuntimeExtensions,
   StripeMonetizationPlugin,
@@ -495,9 +570,12 @@ export function runtimeInit(runtime: RuntimeExtensions) {
   // Register the plugin
   runtime.addPlugin(stripe);
 }
+```
 
 Modules
+
 Runtime Extension
+```javascript
 zuplo.runtime.ts
 import {
   RuntimeExtensions,
@@ -516,24 +594,35 @@ export function runtimeInit(runtime: RuntimeExtensions) {
   // Register the plugin
   runtime.addPlugin(stripe);
 }
+```
 
+## Stripe UI
+```javascript
 Settings
 Environment Variables
 Add Variables
 Name
 STRIPE_WEBHOOK_SIGNING_SECRET
+```
 
-
+## Zuplo UI
+```javascript
 Zuplo Docs 
 Monetization
+```
 https://zuplo.com/docs/articles/monetization-webhook-setup 
+
 https://your-api-url.dev>/__plugins/stripe/webhooks
 
+```javascript
 Search Webhooks
 Add endpoint
+```
 Endpoint URL
+
 https://ania-haiku-api-main-14680de.d2.zuplo.dev/__plugins/stripe/webhooks
 
+```javascript
 Select Events
 customer.subscription.created
 Checked
@@ -547,7 +636,10 @@ Add Endpoint
 Webhooks
 Signing secret
 Copy
+```
 
+## Stripe UI
+```javascript
 Settings
 Environment Variables
 Add Variables
@@ -558,7 +650,10 @@ Paste
 Secret
 Checked
 Save
+```
 
+## Zuplo Portal
+```javascript
 Zuplo Portal
 Services
 
@@ -605,13 +700,17 @@ Requests
 Max Value
 5000
 Create Plan
+```
 
 ania-haiku-api-main-14680de.d2.zuplo.dev/docs/routes/-pricing
-
+```javascript
 Free Haiku   Silver Level Haiku Member   Gold Level Haiku Member
 0/month        10/month                                50/month
 Subscribe     Subscribe                               Subscribe
+```
 
+## Haiku
+```javascript
 Subscribe to Free Haiku
 Card Information …
 
@@ -622,94 +721,6 @@ Docs
 Get Your AI Generated Haiku
 Test
 Json
+```
+
 “Golden autumn levels\nDrifiting gently in cool breeze…
-
-Visual Studio Code
-Explorer
-Open Editors 
-index.js
-package.json
-.env
-
-index.js
-const PORT = process.env.PORT || 8000
-const express = require('express')
-const app = express()
-const { OpenAi } = require('openai')
-require('dotenv').config()
-
-app.get('/',(req, res) => res.json('Welcome to my Haiku API'))
-    const authHeaders = req.readers
-
-    if(authHeaders.secretkey !== process.env.ZUPLOS_API_KEY) {
-        res.json({ message: "You are not authorized to make this request." })
-        return 
-    }
-
-app.get('/haiku', async(req, res) => {
-    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
-    try {
-        const completion = await openai.chat.completions({
-            messages: [{ role: "system", content: "Write a haiku."}],
-            model: "gpt-4"
-        })
-        res.json(completion.choises[0].message.content)
-    } catch (err) {
-        console.error(err)
-    }
-})
-
-
-app.listen(PORT, () => console.log(`listening on port ${PORT}`))
-
-Visual Studio Code
-Explorer
-Open Editors 
-index.js
-package.json
-.env
-
-.env
-OPENAI_API_KEY=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
-ZUPLOS_API_KEY=super-secret-key
-
-Terminal
-git add .
-git commit -am “hid key”
-git push heroku main
-
-Zuplo Portal
-Settings
-Environment Variables
-Add Variable
-Name
-ZUPLOS_API_KEY
-Value
-super-secret-key
-Secret
-Checked
-Save
-
-Code
-routes.oas.json
-Policies
-set-headers-inbound ( Edit )
-Configuration
-{
-	“value”: “$env(ZUPLOS_API_KEY)”
-}
-Ok
-Save
-
-ania-haiku-api-main-14680de.d2.zuplo.dev/docs/routes#overview
-Get Your AI Generated Haiku
-Test
-Json
-“Moonlight paints the sea, \nWispering waves touch the shore…”
-
-
-
-
-
-
-
